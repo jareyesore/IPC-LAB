@@ -1,0 +1,8 @@
+class Automovil:
+    def __init__(self, modelo = 0, precio = 0, marca = "", disponible = True, tipoCambioDolar = 0.0, descuentoAplicado = 0.0):
+    self.modelo = modelo
+    self.precio = precio
+    self.marca = marca
+    self.disponible = disponible
+    self.tipoCambioDolar = tipoCambioDolar
+    self.descuentoAplicado = descuentoAplicado
